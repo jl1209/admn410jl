@@ -1,0 +1,59 @@
+body {
+background: DarkSeaGreen;
+margin: 0 auto;
+}
+h1 {
+Font-size: 60px;
+Font-family: marker felt;
+Text-align: center;
+Color: DarkSlateGrey
+}
+Ul {
+List-style-type: none;
+margin: 0px;
+Padding: 0px;
+Overflow: hidden;
+Float: left;
+Border: 1px solid SlateGrey;
+}
+li {
+float: center;
+Text-align: center;
+Border-bottom: 1px solid SlateGrey;
+}
+li a {
+display: block;
+Color: SlateGrey;
+Padding: 20px 30px;
+Background-color: Honeydew;
+Text-decoration: none;
+Text-align: center;
+}
+Li:last-child {
+Border-bottom:none;
+}
+/* Change the link color to papayawhip on hover */
+Li a:hover {
+Background-color: papayawhip;
+}
+Aside {
+Float: left;
+Width: 600px;
+Padding-right: 15px;
+Padding-left: 30px;
+Padding-top: 15px;
+Text-align: justify;
+Font-size: 20px;
+Font-family: didot;
+}
+Section {
+Float: right;
+Width: 600px;
+Padding-right: 30px;
+Padding-left: 5px;
+Padding-top: 15px;
+Text-align: justify;
+Font-family: Didot;
+Font-size: 20px;
+}
+
